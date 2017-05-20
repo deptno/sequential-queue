@@ -1,0 +1,15 @@
+{
+  "name": "sequential-queue",
+  "version": "1.0.0",
+  "description": "sequential queue for async tasks",
+  "main": "dist/index.js",
+  "repository": "https://github.com/deptno/sequential-queue",
+  "author": "deptno@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^3.0.1"
+  },
+  "scripts": {
+    "prepublish": "tsc"
+  }
+}
