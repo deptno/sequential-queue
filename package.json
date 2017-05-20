@@ -1,6 +1,6 @@
 {
   "name": "sequential-queue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sequential queue for async tasks",
   "repository": "https://github.com/deptno/sequential-queue",
   "author": "deptno@gmail.com",
