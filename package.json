@@ -11,6 +11,10 @@
     "uuid": "^3.0.1"
   },
   "scripts": {
+    "postinstall": "tsc",
     "prepublish": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^2.3.2"
   }
 }
