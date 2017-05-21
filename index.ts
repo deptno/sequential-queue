@@ -44,19 +44,19 @@ export default class SequentialQueue extends EventEmitter {
         }
     }
     private handleQueued() {
-        console.log('[AsyncQueue] queued');
+        // console.log('[AsyncQueue] queued');
         if (this.state !== QueueState.RUNNING) {
             this.run();
         }
     }
     private handleStart() {
-        console.log('[AsyncQueue] start');
+        // console.log('[AsyncQueue] start');
         if (this.state !== QueueState.RUNNING) {
             this.state = QueueState.RUNNING;
         }
     }
     private handleEnd(id, result) {
-        console.log('[AsyncQueue] end');
+        // console.log('[AsyncQueue] end');
         this.emit(id, result);
         if (this.queue.length > 0) {
             return this.run();
@@ -64,7 +64,7 @@ export default class SequentialQueue extends EventEmitter {
         this.emit(SequentialQueue.Event.Done);
     }
     private handleDone() {
-        console.log('[AsyncQueue] done');
+        // console.log('[AsyncQueue] done');
         this.state = QueueState.IDLE;
     }
 }
