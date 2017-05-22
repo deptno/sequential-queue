@@ -2,5 +2,4 @@
 .idea/
 node_modules/
 tsconfig.json
-**/*.js
 **/*.d.ts
