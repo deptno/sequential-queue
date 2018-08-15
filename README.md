@@ -1,4 +1,5 @@
 # sequential-queue
+[![npm](https://img.shields.io/npm/dt/sequential-queue.svg?style=for-the-badge)](https://www.npmjs.com/package/sequential-queue)
 
 > simple sequential queue
 
@@ -41,6 +42,8 @@ console.log(result);
 // done!
 
 ```
+## related
+- https://github.com/deptno/class-zangsisi
 
 ## license
 MIT
